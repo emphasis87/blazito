@@ -9,6 +9,7 @@ Small, easily configurable Automation Server
 Determines the base recipe from which to start.
 
 `FROM <image> [AS <name>]`
+
 `FROM --os=<system> [AS <name>]`
 
 ### RUN
@@ -40,6 +41,7 @@ Copy files.
  Change the working directiory.
 
 `WORKDIR <path>`
+
 `WORKDIR DEFAULT`
 
 ### ARG
